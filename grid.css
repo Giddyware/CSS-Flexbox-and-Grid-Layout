@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(38,38,38);
+}
+
+.Container_hold{
+    background-color: rgb(26,28,40);
+    width: 80%;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.Box_top{
+    /* background-color: yellow; */
+    width: 700px;
+    height: 250px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.Box_top> div{
+    /* padding: 10px; */
+    margin: 15px;
+}
+
+.Box_one{
+    background-color: rgb(235,80,32);
+    width: 450px;
+    /* height: 200px; */
+}
+
+.Box_two{
+    background-color: rgb(255,164,1);
+    width: 250px;
+    /* height: 200px; */
+}
+
+.Box_bottom{
+    /* background-color: rgb(255,164,1); */
+    width: 700px;
+    height: 300px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.Box_bottom> div{
+    margin: 15px;
+}
+
+.Box_three{
+    background-color: rgb(5,170,66);
+    width: 300px;
+}
+
+.Box_sub{
+    /* background-color: rgb(27, 46, 25); */
+    width: 350px;
+    /* display: flex; */
+}
+
+.Box_four{
+    background-color: rgb(1,174,253);
+    width: 350px;
+    height: 125px;
+}
+
+.Box_five{
+    background-color: rgb(1,174,253);
+    width: 350px;
+    height: 125px;
+    margin-top: 20px;
+}

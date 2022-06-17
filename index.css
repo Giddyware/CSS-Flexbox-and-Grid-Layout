@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: rgb(14,14,14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 100px 70px 100px;
+}
+
+
+.Container {
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 360px;
+} 
+
+.Container> div{
+    padding: 30px;
+    width: 150px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-size: 13px; */
+    color: white;
+}
+
+div> p{
+    margin-bottom: 50px;
+    font-size: 11px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+}
+
+div> h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 25px; 
+}
+
+
+
+
+.Sedan{
+    background-color: rgb(226,133,37);
+}
+
+.Suv{
+    background-color: rgb(1,105,114);
+}
+
+.Luxury{
+    background-color: rgb(0,64,63);
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.Sedan> button{
+    color: rgb(226,133,37);
+}
+.Sedan> img{
+    width: 50px;
+    height: 30px;
+}
+
+div> img{
+    width: 50px;
+    height: 30px;
+}
+
+.Suv> button{
+    color: rgb(1,105,114);
+}
+
+.Luxury> button{
+    color: rgb(0,64,63);
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(27, 26, 26, 0.253);
+    border-radius: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
